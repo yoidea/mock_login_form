@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>なんの変哲もないログインフォーム</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="is-size-1">ログインフォーム</h1>
+    <div class="card">
+      <div class="card-content">
+        <form action="/login" method="post">
+        <div class="field">
+          <label class="label">ユーザーID</label>
+          <div class="control">
+            <input class="input" type="text" name="username"/>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">パスワード</label>
+          <div class="control">
+            <input class="input" type="password" name="password"/>
+          </div>
+        </div>
+        <div class="field is-grouped">
+          <div class="control">
+            <input class="button is-link" type="submit" value="ログイン"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+</body>
+
+</html>
